@@ -11,6 +11,7 @@ int main () {
     scanf(" %c", &inicial);
     printf("Qual sua media em fundamentos de programacao? \n");
     scanf("%f", &nota);
-    printf("Inicial: %c \n Idade: %d \n Nota: %f" ,inicial ,idade ,nota);
+    printf("Inicial: %c \nIdade: %d \nNota: %f" ,inicial ,idade ,nota);
 
+    return 0;
 }

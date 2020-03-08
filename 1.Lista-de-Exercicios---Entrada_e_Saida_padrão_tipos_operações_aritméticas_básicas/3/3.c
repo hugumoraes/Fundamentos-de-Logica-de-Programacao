@@ -16,5 +16,6 @@ int main () {
     printf("Digite um numero inteiro: ");
     scanf("%d", &aux);
     printf("%d" ,aux);
+    
     return 0;
 }

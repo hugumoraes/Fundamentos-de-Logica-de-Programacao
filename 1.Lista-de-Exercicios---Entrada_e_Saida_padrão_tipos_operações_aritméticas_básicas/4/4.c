@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    /* Alterar a variável para float 
-        ou a saída dela para inteiro */
+    /* Alterar sua saída para um número inteiro */
 
-    float aux;
+    int aux;
 
-    printf("Digite um numero inteiro: ");
-    scanf("%f", &aux);
-    printf("%f", aux);
+    printf("Digite um n%cmero inteiro: " ,163);
+    scanf("%d", &aux);
+    printf("%d", aux);
+    
     return 0;
 }
